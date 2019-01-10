@@ -1,0 +1,54 @@
+import {Cite} from 'spectacle';
+import {DarkSlide, CodeSlide} from './slides';
+import RegularComponent from './regular-component';
+
+export default CodeSlide
+
+# Javascript formatting
+
+```javascript
+class SuperCoolComponent extends React.Component {
+  render() {
+    return (
+      <p>code slide works in markdown too whaaaaat</p>
+    );
+  }
+}
+```
+
+---
+export default CodeSlide
+
+# HTML formatting
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+</head>
+<body>
+  <div class="foo">
+    This is a <a href="whatever.com">test</a>
+  </div>
+</body>
+</html>
+```
+
+---
+export default CodeSlide
+
+# CSS formatting
+
+```css
+p {
+    color: red;
+    line-height: normal!important;
+}
+/* Simple comment here */
+@media screen and (min-width: 100px) {
+  p { 
+    position:absolute!important 
+  }
+}
+```
